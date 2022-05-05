@@ -9,7 +9,7 @@ import shutil
 
 
 global name_video, frames, vidcap, width, height, fps, option, directory_frames, directory_option, frameSize, clip
-
+# get the name of the video 
 def get_name_video(s: str) -> str:
  count=0
  dst=0
@@ -28,7 +28,7 @@ directory_abs = ""
 name_video = sys.argv[1]
 vidcap = cv2.VideoCapture(name_video)
 clip = mp.VideoFileClip(name_video)
-
+#width, height and frame rate  of the input video
 width = int(vidcap.get(cv2.CAP_PROP_FRAME_WIDTH))
 height = int(vidcap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 fps =  vidcap.get(cv2.CAP_PROP_FPS)
@@ -37,12 +37,12 @@ option = sys.argv[2]
 if option != "edges" and option != "sobelx" and option != "sobely" and option != "sobelxy" and option != "smooth": exit()
 
 name_video = get_name_video(name_video)
-
+#directory of the input videos's frames, the frames of the output videos, the audio of the videos and the processed videos without audio
 directory_frames = directory_abs + "frames/" + name_video
 directory_option = directory_frames + "/" + option + "/"
 directory_audio = directory_abs + "sounds/" + name_video + "/"
 directory_video = directory_abs + "videos/avi/"
-
+#create directory_video if it doesn't estist
 if not os.path.isdir(directory_video):os.mkdir(directory_video) 
 
 path_to_video = directory_video + name_video + "_" + option + ".avi"
