@@ -34,25 +34,25 @@ Sample Image
 Edges
 ---
 
-![sobelx](resources/sample_edges.jpg)
+![edges](https://github.com/WildMix/opencvfilters/blob/main/resources/sample_edges.jpg)
 
 ---
 Sobelx
 ---
 
-![sobelx](resources/sample_sobelx.jpg)
+![sobelx](https://github.com/WildMix/opencvfilters/blob/main/resources/sample_sobelx.jpg)
 
 ---
 Sobely
 ---
 
-![sobelx](resources/sample_sobely.jpg)
+![sobely](https://github.com/WildMix/opencvfilters/blob/main/resources/sample_sobely.jpg)
 
 ---
 Sobelxy
 ---
 
-![sobelx](resources/sample_sobelxy.jpg)
+![sobelxy](https://github.com/WildMix/opencvfilters/blob/main/resources/img_sobelxy)
 
 ---
 Further Information
