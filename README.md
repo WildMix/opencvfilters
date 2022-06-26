@@ -52,7 +52,7 @@ Sobely
 Sobelxy
 ---
 
-![sobelxy](https://github.com/WildMix/opencvfilters/blob/main/resources/img_sobelxy)
+![sobelxy](https://github.com/WildMix/opencvfilters/blob/main/resources/sample_sobelxy)
 
 ---
 Further Information
